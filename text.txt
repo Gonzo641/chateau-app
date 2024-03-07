@@ -1,0 +1,26 @@
+Chateau :
+
+- Navbar + Logo
+- Pages (13 pages) :
+
+	- Accueil
+	- Le chateau
+	- Mariages et réceptions
+	- Chambres d'hôtes
+      =>   - Chambre "Saint Joseph"
+		   - Chambre "Condrieu"
+		   - Suite "Côte-Rôtie"
+		   - Suite "Hermitage"
+		   - Suite "La Chapelle"
+	- Gites 
+     	=> - Gite Syrah
+		   - Gite Viognier
+		   - Gite Marsanne
+	- Actualités
+	- Contact
+
+- Footer
+
+
+- Color police: #b4814f 
+- Police : Lora et Museo Sans et Roboto
