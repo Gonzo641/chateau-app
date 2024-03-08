@@ -5,6 +5,8 @@ import MainMariageReception from "@/components/MainMariageReception";
 import SeparatorCastel from "@/components/SeparatorCastel";
 import MainChambreHote from "@/components/MainChambreHote";
 import MainGites from "@/components/MainGites";
+import MainActualites from "@/components/MainActualites";
+import MainInstagram from "@/components/MainInstagram";
 
 export default function Home() {
   return (
@@ -75,6 +77,8 @@ export default function Home() {
       <SeparatorCastel />
       <MainGites />
       <SeparatorCastel />
+      <MainActualites />
+      <MainInstagram />
     </section>
   );
 }

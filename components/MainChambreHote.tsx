@@ -15,7 +15,7 @@ const MainChambreHote = () => {
     <>
         <div className="px-4 sm:px-20 lg:px-40 grid grid-cols-1 2xl:grid-cols-2 pb-20">
             <div className="pb-0">
-                <h2 className="absolute text-4xl sm:text-8xl font-lora text-chatal uppercase">
+                <h2 className="absolute text-4xl sm:text-8xl pl-8 font-lora text-chatal uppercase">
                     Chambres<br/> d'hôtes
                 </h2>
                 <div className="pt-24 sm:pt-36 col-span-2 flex justify-center items-center">
