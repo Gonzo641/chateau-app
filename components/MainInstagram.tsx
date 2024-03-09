@@ -51,7 +51,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -62,7 +62,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -73,7 +73,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -84,7 +84,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -95,7 +95,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -106,7 +106,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -117,7 +117,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -128,7 +128,7 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
             <Link 
@@ -139,13 +139,12 @@ const MainInstagram = () => {
                     alt="image"
                     width={450}
                     height={90}
-                    className="hover:opacity-70 transition"
+                    className="hover:opacity-70 transition duration-300"
                 />
             </Link>
           </div>
 
-          <div className="flex flex-col justify-center items-center pt-20">
-                {/* <Separator className="bg-chatal w-full h-[2px]" /> */}
+          {/* <div className="flex flex-col justify-center items-center pt-20">
                 <button className=' border-chatal p-8 border-2'>
                     <div className="flex hover:scale-105 transition duration-300 py-4">
                         <Link href='/contact'>
@@ -155,8 +154,7 @@ const MainInstagram = () => {
                         </Link>
                     </div>
                 </button>
-                {/* <Separator className="bg-chatal w-full h-[2px]" /> */}
-            </div>
+            </div> */}
     </div>
   )
 }

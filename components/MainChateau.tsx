@@ -27,7 +27,6 @@ const MainChateau = () => {
                 <Link href='/le-chateau'>
                     <ButtonMain/>
                 </Link>
-
             </div>
         </div>
         <div className="pt-8 xl:pt-[9rem] xl:col-span-2 flex justify-center items-center">
