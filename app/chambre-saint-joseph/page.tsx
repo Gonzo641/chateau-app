@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SlArrowRight } from "react-icons/sl"
 
 import { Separator } from "@/components/ui/separator"
+import ContactButton from "@/components/ContactButton";
 
 const ChambreSaintJosephPage = () => {
     return (
@@ -69,6 +70,7 @@ const ChambreSaintJosephPage = () => {
         <div>
           <img src="/image/ChambreSaintJoseph/SaintJoseph3.jpg" alt="image" className="w-full h-40 xl:h-80 mt-12 object-cover" />
         </div>
+        <ContactButton />
       </div>
     )
   }

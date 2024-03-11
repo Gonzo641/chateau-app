@@ -7,6 +7,7 @@ import MainChambreHote from "@/components/MainChambreHote";
 import MainGites from "@/components/MainGites";
 import MainActualites from "@/components/MainActualites";
 import MainInstagram from "@/components/MainInstagram";
+import ContactButton from "@/components/ContactButton";
 
 export default function Home() {
   return (
@@ -79,6 +80,7 @@ export default function Home() {
       <SeparatorCastel />
       <MainActualites />
       <MainInstagram />
+      <ContactButton />
     </section>
   );
 }

@@ -5,6 +5,7 @@ import ButtonMain from "@/components/ButtonMain";
 import { Separator } from "@/components/ui/separator";
 import { SlArrowRight } from "react-icons/sl";
 import SeparatorCastel from "@/components/SeparatorCastel";
+import ContactButton from "@/components/ContactButton";
 
 const MariageEtReceptionPage = () => {
     return (
@@ -106,6 +107,7 @@ const MariageEtReceptionPage = () => {
             />
         </div>
       </div>
+      <ContactButton />
     </div>
     )
   }

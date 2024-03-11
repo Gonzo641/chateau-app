@@ -3,6 +3,7 @@ import Link from "next/link";
 import { SlArrowRight } from "react-icons/sl"
 
 import { Separator } from "@/components/ui/separator"
+import ContactButton from "@/components/ContactButton";
   
 const SuiteCoteRotiePage = () => {
     return (
@@ -70,6 +71,7 @@ const SuiteCoteRotiePage = () => {
         <div>
           <img src="/image/SuiteCoteRotie/SuiteCoteRotie3.jpg" alt="image" className="w-full h-40 xl:h-80 mt-12 object-cover" />
         </div>
+        <ContactButton />
       </div>
     )
   }

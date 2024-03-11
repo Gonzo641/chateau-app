@@ -2,6 +2,7 @@ import ButtonMain from "@/components/ButtonMain"
 import SeparatorCastel from "@/components/SeparatorCastel"
 import Link from "next/link"
 import Image from "next/image";
+import ContactButton from "@/components/ContactButton";
 
 
 const ChateauPage = () => {
@@ -64,6 +65,7 @@ const ChateauPage = () => {
         <div className="px-4 sm:px-20 xl:px-64">
           <img src="/image/Lechateau/Lechateau5.jpg" alt="image" className="w-full h-40 lg:h-[30rem] xl:h-[35rem] object-cover rounded-xl"/>
         </div>
+        <ContactButton />
       </div>
     )
   }

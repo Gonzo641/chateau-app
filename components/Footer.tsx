@@ -7,17 +7,6 @@ import { FaFacebookF } from "react-icons/fa";
 const Footer = () => {
     return (
       <footer>
-        <div className="flex flex-col justify-center items-center py-10 px-4 sm:px-0">
-            <button className=' border-chatal p-8 border-2'>
-                <div className="flex hover:scale-105 transition duration-300 py-4">
-                    <Link href='/contact'>
-                        <span className="font-lora uppercase text-2xl sm:text-4xl text-chatal">
-                            Contactez-nous
-                        </span>
-                    </Link>
-                </div>
-            </button>
-        </div>
           <Separator className='w-full bg-chatal' />
           <div className="px-4 lg:px-40 xl:px-64 pt-10">
             <div className="grid grid-cols-1 sm:grid-cols-2">

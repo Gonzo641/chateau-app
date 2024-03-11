@@ -19,7 +19,8 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        'mariage': "url('/image/Mariage/Mariage3.jpg')"
+        'mariage': "url('/image/Mariage/Mariage3.jpg')",
+        'contact': "url('/image/contact-footer.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",

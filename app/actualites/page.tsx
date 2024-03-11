@@ -1,6 +1,6 @@
 const ActualitesPage = () => {
-    return (
-      <div>ActualitesPage</div>
-    )
-  }
-  export default ActualitesPage
+  return (
+    <div>ContactPage</div>
+  )
+}
+export default ActualitesPage
