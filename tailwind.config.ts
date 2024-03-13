@@ -21,6 +21,7 @@ const config = {
       backgroundImage: {
         'mariage': "url('/image/Mariage/Mariage3.jpg')",
         'contact': "url('/image/contact-footer.jpg')",
+        'contact-header' : "url('/image/contact-header.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",

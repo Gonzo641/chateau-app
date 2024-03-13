@@ -4,6 +4,7 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import NavMobile from "@/components/NavMobile";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Navbar />
+        {/* <Navbar /> */}
+        <NavMobile />
         <main>{children}</main>
         <Footer />
       </body>

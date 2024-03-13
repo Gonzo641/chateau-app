@@ -28,9 +28,9 @@ import { Separator } from "@/components/ui/separator"
 const ContactPage = () => {
   return (
     <div className="mt-[123px]">
-      <div className="flex justify-center px-64">
-        <div className="bg-white w-[74rem] h-[47rem] absolute z-20">
-          <div className="flex flex-col justify-center items-center">
+      <div className="flex justify-center px-10 xl:px-64">
+        <div className="mt-[72px] bg-white w-[16rem] md:w-[40rem] xl:w-[74rem] h-[49rem] absolute z-20">
+          <div className="flex flex-col justify-center items-center px-4">
             <h2 className="uppercase font-lora text-chatal text-4xl xl:text-8xl pt-20">
               Contactez-nous
             </h2>
@@ -39,7 +39,7 @@ const ContactPage = () => {
             </p>
           </div>
           <SeparatorCastel />
-          <p className="text-center px-32">
+          <p className="text-center px-6 xl:px-32">
           Pour votre demande, contactez-nous à {" "}
           <a className="underline" href="mailto:contact@chateauchavagnac.com">
             contact@chateauchavagnac.com
@@ -47,7 +47,7 @@ const ContactPage = () => {
           nous vous recontacterons dans les plus brefs délais. Vous pouvez bien entendu nous joindre par téléphone également.
           </p>
 
-          <div className="flex flex-col z-20 pt-10 px-64">
+          <div className="flex flex-col z-20 pt-10 px-10 xl:px-64">
             <div className="flex items-center gap-2">
               <RadioGroup defaultValue="option-one">
                 <div className="flex items-center space-x-2">
@@ -95,21 +95,21 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="w-full h-[47rem]">
+      <div className="flex w-full h-[47rem]">
         <img src="/image/contact-header.jpg" alt="image" className="w-full h-[47rem] object-cover" />
       </div>
 
-      <div className="flex flex-col xl:flex-row justify-center mt-40 gap-8 px-28">
-        <div className="flex flex-col w-72 gap-2">
-          <Separator className="bg-black w-full h-1 rounded-xl" />
+      <div className="flex flex-col xl:flex-row justify-center mt-[30rem] md:mt-[18rem] xl:mt-56 gap-8 xl:px-32">
+        <div className="flex flex-col w-72 gap-2 px-4 sm:px-0">
+          <Separator className="bg-black w-40 h-1 rounded-xl" />
           <p className="font-semibold">
             F A Q
           </p>
-          <h4 className="font-semibold text-2xl mt-4">
+          <h4 className="font-semibold xl:text-2xl mt-4">
             Questions fréquentes
           </h4>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 px-4 sm:px-0">
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger>Puis-je venir avec mon petit chien ?</AccordionTrigger>
@@ -177,13 +177,13 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center bg-contact w-full h-[43rem] bg-no-repeat bg-cover mt-10">
-          <div className="flex items-center px-40 w-[68rem] h-[32rem] bg-white rounded-xl">
+      <div className="flex justify-center items-center bg-contact w-full h-80 xl:h-[43rem] bg-no-repeat bg-cover mt-10">
+          <div className="flex items-center px-10 xl:px-40 w-80 md:w-[40rem] xl:w-[68rem] h-60 xl:h-[32rem] bg-white rounded-xl">
             <div className="flex flex-col gap-8">
-              <p className="text-2xl">
+              <p className="xl:text-2xl">
                 MARIAGES, RÉCEPTIONS, SÉMINAIRES, WEEK-ENDS EN AMOUREUX…
               </p>
-              <p className="text-4xl">
+              <p className="xl:text-4xl">
                 Le Château Chavagnac vous accueille toute l’année dans un cadre magnifique…
               </p>
             </div>
